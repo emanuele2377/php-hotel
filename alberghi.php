@@ -50,7 +50,19 @@
     ];
 
 ?>
+
+<?php
+//Creo variabile "name" e assegno valore "Luca"
+$name = "Luca";
+?>
+
 <body>
     
+<form action="ricerca.php">
+        <input type="text" placeholder="Inserisci nome albergo" name="name" required>
+        <input type="text" placeholder="valutazione albergo" name="vote" required>
+        <button type="submit">Invia</button>
+</form>
+
 </body>
 </html>
